@@ -1,9 +1,1 @@
-import model from './model'
-import text from './text'
-import html from './html'
-
-export default {
-  model,
-  text,
-  html
-}
+importmodelfrom'./model'importtextfrom'./text'importhtmlfrom'./html'exportdefault{model,text,html}

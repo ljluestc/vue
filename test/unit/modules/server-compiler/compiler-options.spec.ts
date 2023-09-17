@@ -1,16 +1,1 @@
-import { ssrCompile } from 'server/compiler'
-
-describe('ssrCompile options', () => {
-  it('comments', () => {
-    const compiled = ssrCompile(
-      `
-      <div>
-        <!-- test comments -->
-      </div>
-    `,
-      { comments: true }
-    )
-
-    expect(compiled.render).toContain('<!-- test comments -->')
-  })
-})
+import{ssrCompile}from'server/compiler'describe('ssrCompileoptions',()=>{it('comments',()=>{constcompiled=ssrCompile(`<div><!--testcomments--></div>`,{comments:true})expect(compiled.render).toContain('<!--testcomments-->')})})

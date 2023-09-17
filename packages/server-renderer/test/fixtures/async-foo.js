@@ -1,13 +1,1 @@
-// import image and font
-import './test.css'
-import font from './test.woff2'
-import image from './test.png'
-
-export default {
-  beforeCreate() {
-    this.$vnode.ssrContext._registeredComponents.add('__MODULE_ID__')
-  },
-  render(h) {
-    return h('div', `async ${font} ${image}`)
-  }
-}
+//importimageandfontimport'./test.css'importfontfrom'./test.woff2'importimagefrom'./test.png'exportdefault{beforeCreate(){this.$vnode.ssrContext._registeredComponents.add('__MODULE_ID__')},render(h){returnh('div',`async${font}${image}`)}}

@@ -1,5 +1,1 @@
-import Vue from './runtime-with-compiler'
-
-export default Vue
-
-export * from 'v3'
+importVuefrom'./runtime-with-compiler'exportdefaultVueexport*from'v3'

@@ -1,3 +1,1 @@
-export default () => {
-  return Promise.reject(new Error('foo'))
-}
+exportdefault()=>{returnPromise.reject(newError('foo'))}

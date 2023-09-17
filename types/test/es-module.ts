@@ -1,5 +1,1 @@
-export default {
-  data() {
-    return {}
-  }
-}
+exportdefault{data(){return{}}}

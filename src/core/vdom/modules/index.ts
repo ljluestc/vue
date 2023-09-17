@@ -1,4 +1,1 @@
-import directives from './directives'
-import ref from './template-ref'
-
-export default [ref, directives]
+importdirectivesfrom'./directives'importreffrom'./template-ref'exportdefault[ref,directives]

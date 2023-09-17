@@ -1,7 +1,1 @@
-import model from './model'
-import show from './show'
-
-export default {
-  model,
-  show
-}
+importmodelfrom'./model'importshowfrom'./show'exportdefault{model,show}

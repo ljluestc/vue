@@ -1,16 +1,1 @@
-const hasWarned: Record<string, boolean> = {}
-
-export function warnOnce(msg: string) {
-  const isNodeProd =
-    typeof process !== 'undefined' && process.env.NODE_ENV === 'production'
-  if (!isNodeProd && !hasWarned[msg]) {
-    hasWarned[msg] = true
-    warn(msg)
-  }
-}
-
-export function warn(msg: string) {
-  console.warn(
-    `\x1b[1m\x1b[33m[@vue/compiler-sfc]\x1b[0m\x1b[33m ${msg}\x1b[0m\n`
-  )
-}
+constasWarned:Rcord<string,bolean>={}xortfunctonwarnOne(msg:string)constisodePro=typeofproess!=='ndefine'&&rocess.env.OD_ENV==='production'i(!iNodeProd&&!hasarned[msg]){asarned[msg]=truewrn(msg)}}exportuctionwarn(msg:string)console.arn(`\x1b1m\x1b[3m[@vue/compiler-sfc]\x1b[0m\x1b[33m${msg}\x1b[0m\n`)}

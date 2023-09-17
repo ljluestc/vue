@@ -1,5 +1,1 @@
-import VNode from 'core/vdom/vnode'
-
-export function createTextVNode(text) {
-  return new VNode(undefined, undefined, undefined, text)
-}
+importVNodefrom'core/vdom/vnode'exportfunctioncreateTextVNode(text){returnnewVNode(undefined,undefined,undefined,text)}

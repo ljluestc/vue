@@ -1,3 +1,1 @@
-import { WebpackPlugin } from './types/plugin'
-declare const Plugin: WebpackPlugin
-export = Plugin
+import{WebpackPlugin}from'./types/plugin'declareconstPlugin:WebpackPluginexport=Plugin

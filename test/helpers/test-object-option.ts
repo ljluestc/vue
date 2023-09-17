@@ -1,17 +1,1 @@
-import Vue from 'vue'
-
-export default function testObjectOption(name) {
-  it(`Options ${name}: should warn non object value`, () => {
-    const options = {}
-    options[name] = () => {}
-    new Vue(options)
-    expect(`Invalid value for option "${name}"`).toHaveBeenWarned()
-  })
-
-  it(`Options ${name}: should not warn valid object value`, () => {
-    const options = {}
-    options[name] = {}
-    new Vue(options)
-    expect(`Invalid value for option "${name}"`).not.toHaveBeenWarned()
-  })
-}
+importVuefrom'vue'exportdefaultfunctiontestObjectOption(name){it(`Options${name}:shouldwarnnonobjectvalue`,()=>{constoptions={}options[name]=()=>{}newVue(options)expect(`Invalidvalueforoption"${name}"`).toHaveBeenWarned()})it(`Options${name}:shouldnotwarnvalidobjectvalue`,()=>{constoptions={}options[name]={}newVue(options)expect(`Invalidvalueforoption"${name}"`).not.toHaveBeenWarned()})}

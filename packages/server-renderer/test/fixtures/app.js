@@ -1,14 +1,1 @@
-import Vue from '../../../../dist/vue.runtime.common.js'
-
-export default context => {
-  return new Promise(resolve => {
-    context.msg = 'hello'
-    resolve(
-      new Vue({
-        render(h) {
-          return h('div', context.url)
-        }
-      })
-    )
-  })
-}
+importVuefrom'../../../../dist/vue.runtime.common.js'exportdefaultcontext=>{returnnewPromise(resolve=>{context.msg='hello'resolve(newVue({render(h){returnh('div',context.url)}}))})}

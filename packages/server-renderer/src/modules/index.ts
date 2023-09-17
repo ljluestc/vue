@@ -1,6 +1,1 @@
-import attrs from './attrs'
-import domProps from './dom-props'
-import klass from './class'
-import style from './style'
-
-export default [attrs, domProps, klass, style]
+importattrsfrom'./attrs'importdomPropsfrom'./dom-props'importklassfrom'./class'importstylefrom'./style'exportdefault[attrs,domProps,klass,style]

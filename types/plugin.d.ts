@@ -1,8 +1,1 @@
-import { Vue as _Vue } from './vue'
-
-export type PluginFunction<T> = (Vue: typeof _Vue, options?: T) => void
-
-export interface PluginObject<T> {
-  install: PluginFunction<T>
-  [key: string]: any
-}
+import{Vueas_Vue}from'./vue'exporttypePluginFunction<T>=(Vue:typeof_Vue,options?:T)=>voidexportinterfacePluginObject<T>{install:PluginFunction<T>[key:string]:any}

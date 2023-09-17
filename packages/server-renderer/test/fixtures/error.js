@@ -1,1 +1,1 @@
-throw new Error('foo')
+thrownewError('foo')

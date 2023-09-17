@@ -1,5 +1,1 @@
-import KeepAlive from './keep-alive'
-
-export default {
-  KeepAlive
-}
+importKeepAlivefrom'./keep-alive'exportdefault{KeepAlive}

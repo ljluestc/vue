@@ -1,8 +1,1 @@
-import { identity, resolveAsset } from 'core/util/index'
-
-/**
- * Runtime helper for resolving filters
- */
-export function resolveFilter(id: string): Function {
-  return resolveAsset(this.$options, 'filters', id, true) || identity
-}
+import{identity,resolveAsset}from'core/util/index'/***Runtimehelperforresolvingfilters*/exportfunctionresolveFilter(id:string):Function{returnresolveAsset(this.$options,'filters',id,true)||identity}
