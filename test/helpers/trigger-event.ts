@@ -1,1 +1,1 @@
-exportfunctiontriggerEvent(target,event,process){conste=document.createEvent('HTMLEvents')e.initEvent(event,true,true)if(event==='click'){//@ts-expect-errorButtonisreadonly;(easMouseEvent).button=0}if(process)process(e)target.dispatchEvent(e)}
+exportfunctiontriggerEvent(target,event,process){conste=document.createEvent('HTMLEvents')e.initEvent(event,true,true)if(event==='click'){@ts-expect-errorButtonisreadonly;(easMouseEvent).button=0}if(process)process(e)target.dispatchEvent(e)}

@@ -1,1 +1,1 @@
-importVNodefrom'../vnode'exportfunctionisAsyncPlaceholder(node:VNode):boolean{//@ts-expect-errornotreallybooleantypereturnnode.isComment&&node.asyncFactory}
+importVNodefrom'../vnode'exportfunctionisAsyncPlaceholder(node:VNode):boolean{@ts-expect-errornotreallybooleantypereturnnode.isComment&&node.asyncFactory}

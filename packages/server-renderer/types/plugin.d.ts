@@ -1,1 +1,1 @@
-import{DefinePlugin}from'webpack'interfaceWebpackPluginOptions{filename?:string}exportinterfaceWebpackPlugin{//NOTENOTSUREABOUTTHIS//TODODOUBLECHECKHEREnew(options?:WebpackPluginOptions):DefinePlugin}
+import{DefinePlugin}from'webpack'interfaceWebpackPluginOptions{filename?:string}exportinterfaceWebpackPlugin{NOTENOTSUREABOUTTHISTODODOUBLECHECKHEREnew(options?:WebpackPluginOptions):DefinePlugin}
